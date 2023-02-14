@@ -1,0 +1,13 @@
+.sig {
+    width: 50vw;
+    margin: .5em 0em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #383838;
+    border-bottom: 1px solid #383838;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}

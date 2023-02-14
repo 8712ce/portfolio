@@ -5,17 +5,15 @@ import './App.css';
 // COMPONENTS //
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import SlideshowWide from "./components/SlideshowWide";
 
 function App() {
   return (
     <div className="App">
       <Header />
 
-      <Routes>
+      {/* <SlideshowWide /> */}
 
-      </Routes>
-
-      <Footer />
     </div>
   );
 }
