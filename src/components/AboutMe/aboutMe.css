@@ -1,16 +1,20 @@
-/* .about_me {
-    display: flex;
-} */
+.about_me {
+    overflow: hidden;
+    margin-bottom: 3em;
+}
 
 .main_text {
     text-align: justify;
     color: #808080;
     line-height: 150%;
+    margin-top: 0em;
 }
 
 .about_photo {
-    max-width: 25%;
+    width: 25%;
     height: 25%;
     float: right;
-    margin: 0em 0em 1em 2em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    border-radius: .5em;
 }

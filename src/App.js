@@ -9,6 +9,7 @@ import SlideshowWide from "./components/SlideshowWide";
 import AboutMe from "./components/AboutMe";
 import Resume from "./components/Resume";
 import WebDev from "./components/WebDev";
+import Faq from "./components/Faq";
 import Footer from "./components/Footer";
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
       <Resume />
 
       <WebDev />
+
+      <Faq />
 
       <Footer />
 

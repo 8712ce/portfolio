@@ -1,0 +1,22 @@
+#faq {
+    overflow: hidden;
+    background-color: #f6f6f6;
+    padding: 2em;
+    margin-bottom: 2em;
+    border-radius: 0.5em;
+}
+
+.faq_photo {
+    width: 25%;
+    height: 25%;
+    float: left;
+    margin-right: 2em;
+    margin-bottom: 1em;
+}
+
+.faq_text {
+    color: #808080;
+    margin: auto;
+    line-height: 150%;
+    text-align: justify;
+}

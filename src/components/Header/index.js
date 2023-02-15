@@ -17,6 +17,7 @@ export default function Header() {
                 <Link className="h_link" to="resume" smooth={true} duration={500} offset={-10}>Resume</Link>
                 <Link className="h_link" to="web_dev" smooth={true} duration={500} offset={-10}>Web Development</Link>
                 <Link className="h_link" to="about" smooth={true} duration={500} offset={-10}>Graphic Art</Link>
+                <Link className="h_link" to="faq" smooth={true} duration={500} offset={-10}>FAQ</Link>
             </nav>
 
         </div>
