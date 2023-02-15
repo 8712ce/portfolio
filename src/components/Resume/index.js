@@ -10,7 +10,7 @@ export default function Resume() {
             <div className="resume_text">
                 <p><b>SKILLS</b></p>
                     <ul>
-                        <li>CSS, CSS Frameworks (Bootstrap, Bulma & Materialize), EJS, Express.js, HTML, JavaScript, Mongo/MongoDB, Node.js, PostgreSQL, Python, React.js (My new favorite library!)</li>
+                        <li>CSS, CSS Frameworks (Bootstrap, Bulma & Materialize), EJS, Express.js, HTML, JavaScript, Mongo/MongoDB, Node.js, PostgreSQL, Python, React.js (My new religion!)</li>
                         <li>+</li>
                         <li>Adobe Creative Suite (Illustrator, InDesign & Photoshop in particular) | Autodesk Sketchbook Pro</li>
                         <li>+</li>

@@ -1,0 +1,25 @@
+.circle-container {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 3em;
+  }
+  
+  .circle {
+    width: 100%;
+    padding-bottom: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
