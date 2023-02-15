@@ -6,7 +6,7 @@ import "./resume.css"
 
 export default function Resume() {
     return (
-        <div className="resume">
+        <div id="resume">
             <div className="resume_text">
                 <p><b>SKILLS</b></p>
                     <ul>

@@ -1,3 +1,6 @@
+// DEPENDENCIES //
+import { Link } from 'react-scroll';
+
 // IMAGES //
 import signature from "../../assets/signature.jpg"
 
@@ -10,11 +13,10 @@ export default function Header() {
             <img className="sig" src={signature} alt="David Milton Signature Logo" />
 
             <nav>
-                <p>Home</p>
-                <p>About Me</p>
-                <p>Resume</p>
-                <p>Web Development</p>
-                <p>Graphic Art</p>
+                <Link className="h_link" to="about" smooth={true} duration={500}>About Me</Link>
+                <Link className="h_link" to="resume" smooth={true} duration={500}>Resume</Link>
+                <Link className="h_link" to="web_dev" smooth={true} duration={500}>Web Development</Link>
+                <Link className="h_link" to="about" smooth={true} duration={500}>Graphic Art</Link>
             </nav>
 
         </div>

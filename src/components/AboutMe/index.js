@@ -6,7 +6,7 @@ import "./aboutMe.css"
 
 export default function AboutMe() {
     return (
-        <div className="about_me">
+        <div id="about" className="about_me">
             <p className="main_text">Hello!  My name is David. I am a software engineer and graphic artist. My hand-painted signage and murals live in Trader Joe’s grocery stores and many independent businesses (from breweries to yoga studios) throughout Southern California.</p>
             
             <p className="main_text">In college, I started building simple websites to host my comics, but with the rise of web-based/web-hosted software, I eventually stopped WYSIWYG-ing my own sites. However, my love for tinkering with CSS and figuring out how to make web browsers work for me never waned, so I am currently transitioning into a professional career in web development. I am eager to grow as a developer with a competitive team and to ultimately create and implement fun, whimsical, story-based experiences for (mobile) app users.</p>

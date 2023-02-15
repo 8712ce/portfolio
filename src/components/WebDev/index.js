@@ -8,7 +8,7 @@ import "./web_dev.css"
 
 export default function WebDev() {
     return (
-        <div className="web_dev">
+        <div id="web_dev">
             <div className="project_card">
                 <a href="https://req-recommend.herokuapp.com" target="_blank"><img className="project_logo" src={req_rec} alt="site_logo"/></a>
                 <p className="project_main_text"><b><a href="https://req-recommend.herokuapp.com" target="_blank">(REQ, RECOMMEND)</a></b> I utilized a MEN stack (MongoDB, Express.js, Node.js) to build a full stack application for peers to recommend books/movies. I applied full create, read, update, & delete (CRUD) operations, hitting all RESTful API calls. I created this application with a mobile-first approach and styled it using CSS. | <a href="https://github.com/8712ce/ga_project_02" target="_blank"> GitHub Repository </a></p>
