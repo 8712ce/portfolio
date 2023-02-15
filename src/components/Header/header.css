@@ -23,3 +23,8 @@ nav {
 .h_link {
     margin: 1em 0em;
 }
+
+.h_link:hover {
+    cursor: pointer;
+  }
+  
