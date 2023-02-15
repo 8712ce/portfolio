@@ -2,27 +2,39 @@
 import React, { useState, useEffect } from "react";
 
 // IMAGES //
-import cb01 from "../../assets/graphic_art/cleo_and_bjorn_cover_02.jpeg";
-import cb02 from "../../assets/graphic_art/cleo_donations.jpeg";
-import cb03 from "../../assets/graphic_art/cleo_poster_jump.jpeg";
-import cb04 from "../../assets/graphic_art/cleo.jpeg";
-import cb05 from "../../assets/graphic_art/itunes_australia_text.jpeg";
-import cb06 from "../../assets/graphic_art/itunes_canada_text.jpeg";
-import cb07 from "../../assets/graphic_art/itunes_uk_poster_text.jpeg";
-import cb08 from "../../assets/graphic_art/light_david_milton.jpeg";
-import cb09 from "../../assets/graphic_art/ritual_david_milton.jpeg";
-import hapa from "../../assets/graphic_art/hapa_12.jpeg";
-import rebecca01 from "../../assets/graphic_art/rebecca_portfolio.jpeg";
-import rebecca02 from "../../assets/graphic_art/rebecca.jpeg";
-import tales01 from "../../assets/graphic_art/z_tales_01.jpeg";
-import tales02 from "../../assets/graphic_art/z_tales_02.jpeg";
+import pi01 from "../../assets/graphic_art/portfolio_images_01.jpg";
+import pi02 from "../../assets/graphic_art/portfolio_images_02.jpg";
+import pi03 from "../../assets/graphic_art/portfolio_images_03.jpg";
+import pi04 from "../../assets/graphic_art/portfolio_images_04.jpg";
+import pi05 from "../../assets/graphic_art/portfolio_images_05.jpg";
+import pi06 from "../../assets/graphic_art/portfolio_images_06.jpg";
+import pi07 from "../../assets/graphic_art/portfolio_images_07.jpg";
+import pi08 from "../../assets/graphic_art/portfolio_images_08.jpg";
+import pi09 from "../../assets/graphic_art/portfolio_images_09.jpg";
+import pi10 from "../../assets/graphic_art/portfolio_images_10.jpg";
+import pi11 from "../../assets/graphic_art/portfolio_images_11.jpg";
+import pi12 from "../../assets/graphic_art/portfolio_images_12.jpg";
+import pi13 from "../../assets/graphic_art/portfolio_images_13.jpg";
+import pi14 from "../../assets/graphic_art/portfolio_images_14.jpg";
+import pi15 from "../../assets/graphic_art/portfolio_images_15.jpg";
+import pi16 from "../../assets/graphic_art/portfolio_images_16.jpg";
+import pi17 from "../../assets/graphic_art/portfolio_images_17.jpg";
+import pi18 from "../../assets/graphic_art/portfolio_images_18.jpg";
+import pi19 from "../../assets/graphic_art/portfolio_images_19.jpg";
+import pi20 from "../../assets/graphic_art/portfolio_images_20.jpg";
+import pi21 from "../../assets/graphic_art/portfolio_images_21.jpg";
+import pi22 from "../../assets/graphic_art/portfolio_images_22.jpg";
+import pi23 from "../../assets/graphic_art/portfolio_images_23.jpg";
+import pi24 from "../../assets/graphic_art/portfolio_images_24.jpg";
+import pi25 from "../../assets/graphic_art/portfolio_images_25.jpg";
+import pi26 from "../../assets/graphic_art/portfolio_images_26.jpg";
 
 // STYLES // 
 import "./graphic_art.css"
 
 function GraphicArt() {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const images = [cb01, cb02, cb03, cb04, cb05, cb06, cb07, cb08, cb09, hapa, rebecca01, rebecca02, tales01, tales02];
+  const images = [pi01, pi02, pi03, pi04, pi05, pi06, pi07, pi08, pi09, pi10, pi11, pi12, pi13, pi14, pi15, pi16, pi17, pi18, pi19, pi20, pi21, pi22, pi23, pi24, pi25, pi26];
 
   useEffect(() => {
     const interval = setInterval(() => {

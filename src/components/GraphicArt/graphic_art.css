@@ -1,5 +1,5 @@
 .circle-container {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     margin-bottom: 3em;
   }
@@ -10,6 +10,7 @@
     border-radius: 50%;
     overflow: hidden;
     position: relative;
+    border: 1px solid lightgray;
   }
   
   .slide {
