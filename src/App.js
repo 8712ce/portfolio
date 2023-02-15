@@ -32,6 +32,8 @@ function App() {
 
       <Footer />
 
+      <p className="credit">Made in ReactJS by 8712CE</p>
+
     </div>
   );
 }
