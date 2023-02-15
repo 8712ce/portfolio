@@ -16,3 +16,19 @@
 .f_link {
     margin: 1em 0em;
 }
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .back-to-top:hover {
+    background-color: #fa9a82;
+    color: white;
+  }

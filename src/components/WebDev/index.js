@@ -23,7 +23,6 @@ export default function WebDev() {
                 <a href="https://little-zombie-fun-game.herokuapp.com" target="_blank"><img className="project_logo" src={zombie} alt="site_logo"/></a>
                 <p className="project_main_text"><b><a href="https://little-zombie-fun-game.herokuapp.com" target="_blank">LITTLE ZOMBIE FUN GAME</a></b> Inspired by the <a href="https://www.topps.com/cards-collectibles/online-brands/garbage-pail-kids.html" target="_blank">Garbage Pail Kids</a> collection from my childhood, this is my first, solo MERN stack (MongoDB, Express.js, Node.js, React.js) application; a full stack, tongue-in-cheek game set in the zombie apocalypse. I applied full create, read, update, & delete (CRUD) operations, hitting RESTful API calls. As with all of my projects, I wireframed and planned the UI design of the application and created illustrations using Adobe Photoshop. I implemented Javascript methods to utilize an Express.js, MongoDB, and Node.js backend. | <a href="https://github.com/8712ce/ga_project_04" target="_blank"> GitHub Repository </a></p>
             </div>
-
         </div>
     )
 }

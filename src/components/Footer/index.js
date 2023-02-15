@@ -1,4 +1,5 @@
-
+// DEPENDENCIES //
+import { Link } from 'react-scroll';
 
 // STYLES // 
 import "./footer.css"
@@ -16,7 +17,9 @@ export default function Footer() {
                 <a className="f_link" href="https://www.instagram.com/8712ce/" target="_blank">Instagram</a>
 
                 <a className="f_link" href="mailto:8712ce@gmail.com">Contact</a>
-            </div> 
+            </div>
+
+            <Link to="header" smooth={true} duration={500} className="back-to-top">Top</Link>
         </div>
     )
 }
