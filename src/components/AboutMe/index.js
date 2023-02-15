@@ -4,7 +4,7 @@ import cheesy from "../../assets/cheesy.jpeg"
 // STYLES // 
 import "./aboutMe.css"
 
-export default function Header() {
+export default function AboutMe() {
     return (
         <div className="about_me">
             <p className="main_text">Hello!  My name is David. I am a software engineer and graphic artist. My hand-painted signage and murals live in Trader Joe’s grocery stores and many independent businesses (from breweries to yoga studios) throughout Southern California.</p>

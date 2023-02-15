@@ -1,5 +1,5 @@
 // DEPENDENCIES //
-import React, { useState } from 'react';
+import React, { useState, useEffect } from "react";
 
 // IMAGES //
 import s_01 from "../../assets/s_01.jpg"
@@ -10,30 +10,6 @@ import s_05 from "../../assets/s_05.jpg"
 
 // STYLES //
 import "./slideshowWide.css"
-
-// function Slideshow() {
-//   const [currentSlide, setCurrentSlide] = useState(0);
-//   const images = [s_01, s_02, s_03, s_04, s_05];
-
-//   const nextSlide = () => {
-//     setCurrentSlide(currentSlide === images.length - 1 ? 0 : currentSlide + 1);
-//   };
-
-//   const prevSlide = () => {
-//     setCurrentSlide(currentSlide === 0 ? images.length - 1 : currentSlide - 1);
-//   };
-
-//   return (
-//     <div className="slideshow">
-//       <img src={images[currentSlide]} alt={`Slide ${currentSlide + 1}`} />
-//       <button onClick={prevSlide}>Previous</button>
-//       <button onClick={nextSlide}>Next</button>
-//     </div>
-//   );
-// }
-
-// export default Slideshow;
-
 
 function Slideshow() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -63,3 +39,4 @@ function Slideshow() {
 }
 
 export default Slideshow;
+

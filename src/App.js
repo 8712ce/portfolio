@@ -5,9 +5,11 @@ import './App.css';
 
 // COMPONENTS //
 import Header from "./components/Header";
-import Footer from "./components/Footer";
 import SlideshowWide from "./components/SlideshowWide";
 import AboutMe from "./components/AboutMe";
+import Resume from "./components/Resume";
+import WebDev from "./components/WebDev";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,6 +19,12 @@ function App() {
       <SlideshowWide />
 
       <AboutMe />
+
+      <Resume />
+
+      <WebDev />
+
+      <Footer />
 
     </div>
   );
