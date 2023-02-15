@@ -1,5 +1,6 @@
 // DEPENDENCIES //
 import { Routes, Route, Link } from "react-router-dom";
+import React, { useState } from 'react';
 import './App.css';
 
 // COMPONENTS //
@@ -12,7 +13,7 @@ function App() {
     <div className="App">
       <Header />
 
-      {/* <SlideshowWide /> */}
+      <SlideshowWide />
 
     </div>
   );

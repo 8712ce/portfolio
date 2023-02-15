@@ -1,3 +1,6 @@
+// DEPENDENCIES //
+import React, { useState } from 'react';
+
 // IMAGES //
 import s_01 from "../../assets/s_01.jpg"
 import s_02 from "../../assets/s_02.jpg"
@@ -8,33 +11,49 @@ import s_05 from "../../assets/s_05.jpg"
 // STYLES //
 import "./slideshowWide.css"
 
-export default function slideshowWide() {
-    return (
-        <div class="slideshow_container">
+function Slideshow() {
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const images = [s_01, s_02, s_03, s_04, s_05];
 
-            <div class="my_slides fade">
-                <img src={s_01} style="width:100%" alt="comic panel"/>
-            </div>
+  const nextSlide = () => {
+    setCurrentSlide(currentSlide === images.length - 1 ? 0 : currentSlide + 1);
+  };
 
-            {/* <div class="my_slides fade">
-                <img src={s_02} style="width:100%" alt="comic panel"/>
-            </div>
+  const prevSlide = () => {
+    setCurrentSlide(currentSlide === 0 ? images.length - 1 : currentSlide - 1);
+  };
 
-            <div class="my_slides fade">
-                <img src={s_03} style="width:100%" alt="comic panel"/>
-            </div>
-
-            <div class="my_slides fade">
-                <img src={s_04} style="width:100%" alt="comic panel"/>
-            </div>
-
-            <div class="my_slides fade">
-                <img src={s_05} style="width:100%" alt="comic panel"/>
-            </div> */}
-
-            {/* <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a> */}
-
-        </div>
-    )
+  return (
+    <div className="slideshow">
+      <img src={images[currentSlide]} alt={`Slide ${currentSlide + 1}`} />
+      <button onClick={prevSlide}>Previous</button>
+      <button onClick={nextSlide}>Next</button>
+    </div>
+  );
 }
+
+export default Slideshow;
+
+
+// AUTO SLIDESHOW WITH NO BUTTONS //
+
+// function Slideshow() {
+//   const [currentSlide, setCurrentSlide] = useState(0);
+//   const images = [image1, image2, image3];
+
+//   useEffect(() => {
+//     const intervalId = setInterval(() => {
+//       setCurrentSlide((currentSlide) => (currentSlide + 1) % images.length);
+//     }, 5000);
+
+//     return () => clearInterval(intervalId);
+//   }, [images.length]);
+
+//   return (
+//     <div className="slideshow">
+//       <img src={images[currentSlide]} alt={`Slide ${currentSlide + 1}`} />
+//     </div>
+//   );
+// }
+
+// export default Slideshow;
