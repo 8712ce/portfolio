@@ -1,6 +1,8 @@
-.slideshow {
+/* .slideshow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
-  height: 500px;
   position: relative;
   overflow: hidden;
   border: 1px solid #383838;
@@ -9,10 +11,7 @@
 
 .slideshow img {
   width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+  height: auto;
   opacity: 1;
   transition: opacity 1s ease-in-out;
 }
@@ -24,4 +23,58 @@
 button {
   position: fixed;
   bottom: 0;
+} */
+
+
+.slideshow-container {
+  position: relative;
+  width: 100%;
+  border: 1px solid lightgray;
+  margin: 1em 0em;
+}
+
+.slideshow {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.slideshow img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  font-size: 1.5em;
+  cursor: pointer;
+  padding: 16px;
+  color: #383838;
+  margin-top: -22px;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.prev::before,
+.next::before {
+  content: "";
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+button {
+  display: none;
 }

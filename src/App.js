@@ -7,6 +7,7 @@ import './App.css';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import SlideshowWide from "./components/SlideshowWide";
+import AboutMe from "./components/AboutMe";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <Header />
 
       <SlideshowWide />
+
+      <AboutMe />
 
     </div>
   );

@@ -1,4 +1,11 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 0em 1em;
+  max-width: 1000px;
+  margin: 0 auto;
+  /* height: 100vh; */
 }
