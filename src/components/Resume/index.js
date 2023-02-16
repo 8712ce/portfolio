@@ -1,6 +1,10 @@
 // DEPENDENCIES //
 import { Link } from "react-router-dom";
 
+// IMAGES //
+import resume from "../../assets/resume.pdf";
+import s_01 from "../../assets/s_01.jpg";
+
 // STYLES // 
 import "./resume.css"
 
@@ -36,9 +40,7 @@ export default function Resume() {
             </div>
 
             <div className="resume_text">
-                {/* <Link to="../../assets/resume.pdf" target="_blank" rel="noopener noreferrer">View Resume as PDF</Link> */}
-
-                <a href="../../assets/resume.pdf" target="_blank" rel="noopener noreferrer" download><i>Download Complete Resume as PDF</i></a>
+                <a href={resume} target="_blank" rel="noopener noreferrer">View Resume as PDF</a>
             </div>
 
         </div>
