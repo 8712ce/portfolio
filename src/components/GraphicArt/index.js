@@ -44,57 +44,17 @@ function GraphicArt() {
     return () => clearInterval(interval);
   }, [currentSlide, images.length]);
 
-  // const slideStyle = {
-  //   backgroundImage: `url(${images[currentSlide]})`,
-  // };
+  const slideStyle = {
+    backgroundImage: `url(${images[currentSlide]})`,
+  };
 
-  // return (
-  //   <div id="graph_art" className="circle-container">
-  //     <div className="circle">
-  //       <div className="slide" style={slideStyle} />
-  //     </div>
-  //   </div>
-  // );
-
-  // export default GraphicArt;
-
-
-  // BEGIN FADE TRANSITIONS BETWEEN IMAGES //
-  // BEGIN FADE TRANSITIONS BETWEEN IMAGES //
-  // BEGIN FADE TRANSITIONS BETWEEN IMAGES //
-  const slides = images.map((image, index) => {
-    let className = "slide";
-    let slideStyle = {
-      position: 'absolute',
-      top: '0',
-      left: '0',
-      width: '100%',
-      height: '100%',
-      backgroundImage: `url(${image})`,
-      opacity: 1,
-      transition: "opacity 1s ease-in-out"
-    };
-  
-    if (index !== currentSlide) {
-      className += " inactive";
-      slideStyle.opacity = 0;
-    }
-
-    return (
-      <div key={index} className={className} style={slideStyle}></div>
-    );
-  });
-  
   return (
     <div id="graph_art" className="circle-container">
       <div className="circle">
-        {slides}
+        <div className="slide" style={slideStyle} />
       </div>
     </div>
   );
 }
 
 export default GraphicArt;
-// END FADE TRANSITIONS BETWEEN IMAGES //
-// END FADE TRANSITIONS BETWEEN IMAGES //
-// END FADE TRANSITIONS BETWEEN IMAGES //
