@@ -4,16 +4,16 @@
     margin-bottom: 3em;
   }
   
-  .circle {
+.circle {
     width: 100%;
     padding-bottom: 100%;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
     border: 1px solid lightgray;
-  }
+}
   
-  .slide {
+/* .slide {
     position: absolute;
     top: 0;
     left: 0;
@@ -22,5 +22,27 @@
     background-size: cover;
     background-position: center;
     transition: opacity 0.5s ease-in-out;
-  }
-  
+} */
+
+
+/* BEGIN FADE TRANSITIONS BETWEEN IMAGES
+BEGIN FADE TRANSITIONS BETWEEN IMAGES
+BEGIN FADE TRANSITIONS BETWEEN IMAGES */
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slide.inactive {
+  opacity: 0;
+}
+/* END FADE TRANSITIONS BETWEEN IMAGES
+END FADE TRANSITIONS BETWEEN IMAGES
+END FADE TRANSITIONS BETWEEN IMAGES */
