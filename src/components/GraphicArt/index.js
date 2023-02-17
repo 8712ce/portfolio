@@ -15,7 +15,7 @@ import pi10 from "../../assets/graphic_art/portfolio_images_10.jpg";
 import pi11 from "../../assets/graphic_art/portfolio_images_11.jpg";
 import pi12 from "../../assets/graphic_art/portfolio_images_12.jpg";
 // import pi13 from "../../assets/graphic_art/portfolio_images_13.jpg";
-import pi14 from "../../assets/graphic_art/portfolio_images_14.jpg";
+// import pi14 from "../../assets/graphic_art/portfolio_images_14.jpg";
 import pi15 from "../../assets/graphic_art/portfolio_images_15.jpg";
 import pi16 from "../../assets/graphic_art/portfolio_images_16.jpg";
 import pi17 from "../../assets/graphic_art/portfolio_images_17.jpg";
@@ -34,7 +34,7 @@ import "./graphic_art.css"
 
 function GraphicArt() {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const images = [pi01, pi02, pi03, pi04, pi05, pi06, pi08, pi09, pi10, pi11, pi12, pi14, pi15, pi16, pi17, pi19, pi20, pi21, pi22, pi23, pi24, pi25, pi26];
+  const images = [pi01, pi02, pi03, pi04, pi05, pi06, pi08, pi09, pi10, pi11, pi12, pi15, pi16, pi17, pi19, pi20, pi21, pi22, pi23, pi24, pi25, pi26];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -72,7 +72,7 @@ function GraphicArt() {
       height: '100%',
       backgroundImage: `url(${image})`,
       opacity: 1,
-      transition: "opacity 0.5s ease-in-out"
+      transition: "opacity 1s ease-in-out"
     };
   
     if (index !== currentSlide) {

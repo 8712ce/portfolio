@@ -32,7 +32,7 @@ function App() {
 
       <Footer />
 
-      <p className="credit">Made in ReactJS by 8712CE</p>
+      <p className="credit">Built with ReactJS by 8712CE</p>
 
     </div>
   );
