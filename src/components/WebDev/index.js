@@ -1,6 +1,6 @@
 // IMAGES //
 import req_rec from "../../assets/req_rec_logo.png";
-import hike from "../../assets/hikers_hub_logo.png";
+import bhpca from "../../assets/bhpca_logo.jpeg";
 import zombie from "../../assets/logo.jpg";
 
 // STYLES // 
@@ -15,8 +15,8 @@ export default function WebDev() {
             </div>
 
             <div className="project_card_2">
-                <p className="project_main_text_2"><b><a href="https://hikers-hub.herokuapp.com" target="_blank">HIKER'S HUB</a></b> This is a full stack application for hikers, backpackers, mountain bikers, and offroad enthusiasts to find the perfect trails for their adventures!  Some of the technologies used include Mongoose (MongoDB), Express.js, React.js, Node.js, HTML, CSS, and React Bootstrap.  This was a group project in which my main roles consisted of UI designer, assisting in building the front end using React, and debugging. | <a href="https://github.com/SEIR-Hikers-Hub/Hikers-Hub" target="_blank"> GitHub Repository </a></p>
-                <a href="https://hikers-hub.herokuapp.com" target="_blank"><img className="project_logo_2" src={hike} alt="site_logo"/></a>
+                <p className="project_main_text_2"><b><a href="https://bvhpadvocates.org/about/ourteam" target="_blank">BAYVIEW HUNTERS POINT COMMUNITY ADVOCATES</a></b> I revamped the "Our Team" page of a WordPress site for BHPCA, an esteemed grassroots organization led by dedicated individuals who have deep ties to the vulnerable Bayview Hunters Point neighborhood in San Francisco, CA.  I collaborated closely with the co-op, skillfully aligning the page with their envisioned design aesthetics. Leveraging my expertise in Javascript, HTML, and CSS, I implemented a sophisticated modal to showcase staff profiles.</p>
+                <a href="https://bvhpadvocates.org/about/ourteam" target="_blank"><img className="project_logo_2" src={bhpca} alt="site_logo"/></a>
             </div>
 
             <div className="project_card">
