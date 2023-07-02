@@ -49,8 +49,8 @@ function GraphicArt() {
   };
 
   return (
-    <div id="graph_art" className="circle-container">
-      <div className="circle">
+    <div id="graph_art" className="square-container">
+      <div className="square">
         <div className="slide" style={slideStyle} />
       </div>
     </div>
