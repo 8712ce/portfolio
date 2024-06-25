@@ -14,11 +14,13 @@ export default function Resume() {
             <div className="resume_text">
                 <p><b>SKILLS</b></p>
                     <ul>
-                        <li>CSS, CSS Frameworks (Bootstrap, Bulma & Materialize), EJS, Express.js, HTML, JavaScript, Mongo/MongoDB, Node.js, PostgreSQL, Python, React.js (My new religion!) & WordPress</li>
+                        <li>CSS | CSS Frameworks (Bootstrap, Bulma & Materialize) | Django | DOM | EJS | Express.js | Flexbox | GitHub | HTML | JavaScript | JSON | MongoDB | MVC | Node.js | PostgreSQL | Python | React.js (My new religion!) | REST APIs | UX/UI | WordPress</li>
                         <li>+</li>
-                        <li>Adobe Creative Suite (Illustrator, InDesign & Photoshop in particular) | Autodesk Sketchbook Pro</li>
+                        <li>Adobe Creative Suite (Illustrator, InDesign & Photoshop in particular) | Autodesk Sketchbook Pro | Microsoft Office Suite</li>
                         <li>+</li>
                         <li>Crayon, Marker, Mixed Media, Paint (Acrylic/Digital/Oil), Wacom Tablet, Wood, Pencil & Ink</li>
+                        <li>+</li>
+                        <li>Best Practices | Collaboration | Communication Skills | Creative Thinking | Customer Service | Dependability | Detail Oriented | Intercultural Fluency | Multitasking | Organization Skills | Problem Solving | Teamwork | Time Management</li>
                     </ul>
             </div>
 
@@ -33,9 +35,11 @@ export default function Resume() {
             <div className="resume_text">
                 <p><b>WORK EXPERIENCE</b></p>
                     <ul>
-                        <li>Freelance Illustrator, Graphic Designer, & Muralist (Using Traditional & Digital Mediums)</li>
-                        <li><a href="https://www.traderjoes.com" target="_blank">Trader Joe's</a> | Sign Artist & Muralist</li>
-                        <li>Clarke Directory Publications Inc. | Graphic Artist</li>
+                        <li>Full Stack Developer | EdTech (Startup)</li>
+                        <li>Frontend Developer | Co-Op Startup</li>
+                        <li>Graphic Artist (Using Traditional & Digital Mediums) / Software Engineer | Freelance</li>
+                        <li>Lead Sign Artist & Muralist | <a href="https://www.traderjoes.com" target="_blank">Trader Joe's</a></li>
+                        <li>Graphic Artist | Clarke Directory Publications Inc.</li>
                     </ul>
             </div>
 
