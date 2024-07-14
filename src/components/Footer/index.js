@@ -8,7 +8,7 @@ export default function Footer() {
     return (
         <div className="footer">
             <div className="links">
-                <a className="f_link" href="https://www.linkedin.com/in/david-s-milton/" target="_blank">LinkedIn</a>
+                <a className="f_link" href="https://www.linkedin.com/in/8712ce/" target="_blank">LinkedIn</a>
 
                 <a className="f_link" href="https://www.github.com/8712ce/" target="_blank">GitHub</a>
 
